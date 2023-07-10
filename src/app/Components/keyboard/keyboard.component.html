@@ -1,0 +1,7 @@
+<div class="wrapper">
+    <app-wrapper [stroke]="stroke" [green]="green" [red]="red"></app-wrapper>
+    <div class="keyboard">
+        <button *ngFor="let button of buttons" on-click="updateDisplay($event)" value={{button}}>{{button}}</button>
+        <button on-click="clear()">&larr;</button>
+    </div>
+</div>

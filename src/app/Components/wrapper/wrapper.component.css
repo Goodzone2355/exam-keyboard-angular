@@ -1,0 +1,17 @@
+.wrapper {
+  width: 492px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+input {
+  width: 100%;
+}
+
+.g {
+  background-color: green;
+}
+
+.r {
+  background-color: red;
+}
